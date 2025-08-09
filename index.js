@@ -57,8 +57,5 @@ app.post('/verify-otp', (req, res) => {
     res.json({ message: "OTP verified successfully" });
 });
 
-app.listen(5000, () => {
-    console.log("OTP API running on port 5000");
-});
 
 module.exports = app;
